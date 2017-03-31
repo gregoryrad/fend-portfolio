@@ -28,18 +28,20 @@
   <!-- About Section-->
 
   <section class="row main-background">
-    <div class="col-md-12 main-image">
-      <picture>
-        <source media="(min-width: 1200px)" srcset="img/main-image_1140_2x.jpg 2x, img/main-image_1140_1x.jpg 1x">
-        <source media="(min-width: 991px)" srcset="img/main-image_940_2x.jpg 2x, img/main-image_940_1x.jpg 1x">
-        <img src="img/main-image_1140_1x.jpg" alt="Responsive Design" class="img-responsive center-block">
-      </picture>
-    </div>
-    <div class="col-md-12">
-      <h3>Hello and Welcome</h3>
-      <p class="main-text">I am an experienced creative professional currently focused on UI design and front-end Web development. As a designer and developer, I envision the big picture and advocate for the user. I collaborate with my clients to create compelling interfaces that look great and perform well too.</p>
-      <hr class="hr-rule">
-    </div>
+    <main class="main-content">
+      <div class="col-md-12 main-image">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/main-image_1140_2x.jpg 2x, img/main-image_1140_1x.jpg 1x">
+          <source media="(min-width: 991px)" srcset="img/main-image_940_2x.jpg 2x, img/main-image_940_1x.jpg 1x">
+          <img src="img/main-image_1140_1x.jpg" alt="Responsive Design" class="img-responsive center-block">
+        </picture>
+      </div>
+      <div class="col-md-12">
+        <h3>Hello and Welcome</h3>
+        <p class="main-text">I am an experienced creative professional currently focused on UI design and front-end Web development. As a designer and developer, I envision the big picture and advocate for the user. I collaborate with my clients to create compelling interfaces that look great and perform well too.</p>
+        <hr class="hr-rule">
+      </div>
+    </main>
   </section>
 
   <!-- Portfolio Section-->
@@ -53,7 +55,7 @@
     </div>
     <div class="row text-center main-background">
       <!-- Portfolio Item 1-->
-      <div class="col-md-6 portfolio-card">
+      <article class="col-md-6 portfolio-card">
         <picture class="portfolio-picture">
           <source media="(min-width: 1px)" srcset="img/hr-irrig_2x.jpg 2x, img/hr-irrig_1x.jpg 1x">
           <img src="img/hr-irrig_1x.jpg" alt="HR Irrigation Website" class="img-responsive center-block" data-toggle="modal" data-target="#project1">
@@ -61,9 +63,9 @@
         <h3 class="portfolio-title">Responsive WordPress Website</h3>
         <p><a href="http://hrirrigationlandscape.com/" target="_blank" class="portfolio-link">Visit Site</a></p>
         <hr class="hr-rule">
-      </div>
+      </article>
       <!-- Portfolio Item 2-->
-      <div class="col-md-6 portfolio-card">
+      <article class="col-md-6 portfolio-card">
         <picture class="portfolio-picture">
           <source media="(min-width: 1px)" srcset="img/mrs-meyers_2x.jpg 2x, img/mrs-meyers_1x.jpg 1x">
           <img src="img/mrs-meyers_1x.jpg" alt="mobile microsite" class="img-responsive center-block" data-toggle="modal" data-target="#project2">
@@ -71,11 +73,9 @@
         <h3 class="portfolio-title">Mobile Microsite</h3>
         <p><a href="#" class="portfolio-link">Link to project</a></p>
         <hr class="hr-rule">
-      </div>
-    </div>
-    <div class="row text-center main-background">
+      </article>
       <!-- Portfolio Item 3-->
-      <div class="col-md-6 portfolio-card">
+      <article class="col-md-6 portfolio-card">
         <picture class="portfolio-picture">
           <source media="(min-width: 1px)" srcset="img/woe-ipad-app_2x.jpg 2x, img/woe-ipad-app_1x.jpg 1x">
           <img src="img/woe-ipad-app_1x.jpg" alt="iPad app" class="img-responsive center-block" data-toggle="modal" data-target="#project3">
@@ -83,9 +83,9 @@
         <h3 class="portfolio-title">iPad game app</h3>
         <p><a href="#" class="portfolio-link">Link to project</a></p>
         <hr class="hr-rule">
-      </div>
+      </article>
       <!-- Portfolio Item 4-->
-      <div class="col-md-6 portfolio-card">
+      <article class="col-md-6 portfolio-card">
         <picture class="portfolio-picture">
           <source media="(min-width: 1px)" srcset="img/wsb_2x.jpg 2x, img/wsb_1x.jpg 1x">
           <img src="img/wsb_1x.jpg" alt="WSB Website" class="img-responsive center-block" data-toggle="modal" data-target="#project4">
@@ -93,7 +93,7 @@
         <h3 class="portfolio-title">Responsive WordPress Website</h3>
         <p><a href="http://westseattleblog.com/" target="_blank" class="portfolio-link">Visit Site</a></p>
         <hr class="hr-rule">
-      </div>
+      </article>
     </div>
 
     <!-- Modals Section - Adapted from the Udacity Front-end Developer coursework-->
