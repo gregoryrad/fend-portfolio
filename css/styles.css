@@ -17,7 +17,7 @@ img {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   color: #666;
   background-color: #f2f2f2;
@@ -25,6 +25,10 @@ body {
 
 p {
   color: #333;
+}
+
+.container {
+  max-width: 1400px;
 }
 
 /*  Header  */
@@ -38,7 +42,7 @@ p {
 }
 
 .main-name {
-  font-family: 'Rambla', sans-serif;
+  font-family: "Rambla", sans-serif;
   font-weight: 700;
   font-size: 2.55em;
   color: #369;
