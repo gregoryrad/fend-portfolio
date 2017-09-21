@@ -17,7 +17,7 @@ img {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #666;
   background-color: #f2f2f2;
@@ -41,19 +41,23 @@ p {
   flex-wrap: wrap;
 }
 
+.header-logo {
+  width: 100px;
+}
+
 .main-name {
-  font-family: "Rambla", sans-serif;
-  font-weight: 700;
-  font-size: 2.55em;
-  color: #369;
+  font-family: "Share", sans-serif;
+  font-size: 3.5em;
+  color: #bf474c;
   text-align: right;
 }
 
 .main-subhead {
   margin: 5px 0;
   text-align: right;
-  text-transform: uppercase;
-  font-size: 0.875em;
+  font-family: "Share", sans-serif;
+  font-size: 2em;
+  color: #48525a;
 }
 
 .main-name-container {
@@ -136,7 +140,11 @@ footer {
     }
 
     .main-subhead {
-      font-size: 0.75em;
+      font-size: 1.25em;
+    }
+
+    .portfolio-title {
+      font-size: 1.5em;
     }
 
 }
